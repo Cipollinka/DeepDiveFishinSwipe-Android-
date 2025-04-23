@@ -61,7 +61,7 @@ const DeepLoadingDiveScreen = () => {
       width: '100%',
     }}>
       <Image
-        source={require('../assets/images/loaderImage.png')}
+        source={require('../assets/images/homeBg.png')}
         style={{
           width: dimensions.width,
           height: dimensions.height,
@@ -70,10 +70,9 @@ const DeepLoadingDiveScreen = () => {
           left: 0,
           right: 0,
           bottom: 0,
-          zIndex: 1,
         }}
-        resizeMode="contain"
       />
+        <Image source={require('../assets/images/deepImageText.png')} style={{width: 500, height: 300, resizeMode: 'contain'}}/>
     </View>
   );
 };

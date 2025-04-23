@@ -103,7 +103,7 @@ const DeepDiveAboutScreen = ({ setSelectedDeepDiveScreen }) => {
                     paddingHorizontal: dimensions.width * 0.05,
                     marginTop: dimensions.height * 0.04,
                 }}>
-                Deep Dive Fishin’ Swipe is a fast-paced reflex game where one wrong swipe ends your fishing trip. Think fast, swipe right (or left... or up), and prove you've got the instincts of a true deep-sea master.
+                FishSnap is a fast-paced reflex game where one wrong swipe ends your fishing trip. Think fast, swipe right (or left... or up), and prove you've got the instincts of a true deep-sea master.
             </Text>
 
             <Text
