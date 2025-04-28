@@ -316,7 +316,7 @@ export default function AppManager() {
     // });
     const deepLink = await FBDeepLink.getDeepLink();
     console.log('Deep link:', deepLink);
-    deepParams.current = deepLink;
+    deepParams.current = deepLink.split('approved?')[1];
   }
 
   useEffect(() => {
